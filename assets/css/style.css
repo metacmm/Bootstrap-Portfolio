@@ -14,16 +14,18 @@ body{
 }
 .container-fluid{
     background-image: url(../images/background.png);
-    height:100vh;
+    height:85vh;
 }
 .card-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 1.5rem;
-    
+}
+.card{
+    max-width: 960px;
 }
 .card-body{
-    max-width: 960px;
+    
     line-height: 2.0rem;
 }
 #img-portrait{
@@ -34,4 +36,7 @@ body{
     flex-shrink: 0;
     background-color:#666666;
     border-top: 8px solid #4aaaa5;
+}
+.btn-primary{
+    background-color:#4aaaa5;
 }
